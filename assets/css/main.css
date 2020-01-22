@@ -2691,6 +2691,11 @@
 			text-decoration: none;
 			display: inline-block;
 		}
+		
+		#header .header-logo {
+			margin-top: 0.5em;
+			max-height: 55px;
+		}
 
 		#header nav {
 			position: absolute;
@@ -2771,6 +2776,10 @@
 			#header nav.right {
 				display: none;
 			}
+			
+			#header .header-logo {
+			max-height: 32px;
+		}
 
 	}
 
