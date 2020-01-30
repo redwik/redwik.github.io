@@ -2051,6 +2051,8 @@
 
 		.box .image.fit {
 			margin: 0;
+			overflow: hidden;
+			max-height: 150px;
 		}
 
 		.box .content {
