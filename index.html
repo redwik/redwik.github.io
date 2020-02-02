@@ -1,27 +1,31 @@
 <!DOCTYPE HTML>
-<!--
-	Intensify by TEMPLATED
-	templated.co @templatedco
-	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
--->
 <html>
 	<head>
 		<title>Antivýtrus</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/logo/favicon.png">
 	</head>
 	<body>
 
 		<!-- Header -->
 			<header id="header">
-				<nav class="left">
-					<a href="#menu"><span>Menu</span></a>
-				</nav>
-				<a href="index.html" class="logo"><img class="header-logo" src="images/logo/logo-header-test.jpg" /></a>
+				<nav class="left">					
+					<a href="index.html" class="logo"><img class="header-logo" src="images/logo/logo.png" /></a>
+				</nav>				
 				<nav class="right">
-					<a href="#" class="button">Stiahnuť Antivýtrus</a>
+						<a class="menu-row" href="faq.html">Časté otázky (FAQ)</a>
+						<a class="menu-row" href="ako-nainstalovat.html">Ako nainštalovať</a>
+					<div class="dropdown">
+						<button class="button dropbtn" onclick="dropdownToggle()">Stiahnuť Antivýtrus <i class="fa fa-caret-down button-icon"></i></button>
+						<div id="myDropdown" class="dropdown-content">
+							<a href="https://chrome.google.com/webstore/detail/antivytrussk/llhhdjleiafmdjkiajealflgegoaandl">Google Chrome</a>
+							<a href="https://addons.mozilla.org/sk/firefox/addon/antivytrus/">Mozilla Firefox</a>
+						</div>
+					</div>
 				</nav>
+				<a href="#menu" class="mobile-only"><span>Menu</span></a>
 			</header>
 
 		<!-- Menu -->
@@ -29,11 +33,9 @@
 				<ul class="links">
 					<li><a href="index.html">Hlavná stránka</a></li>
 					<li><a href="faq.html">Časté otázky (FAQ)</a></li>
-					<li><a href="elements.html">Elements</a></li>
+					<li><a href="ako-nainstalovat.html">Ako nainštalovať</a></li>
+					<li><a href="antivytrus-a-rodicia.html">Antivýtrus a rodičia</a></li>
 				</ul>
-				<!--<ul class="actions vertical">
-					<li><a href="#" class="button fit">Login</a></li>
-				</ul>-->
 			</nav>
 
 		<!-- Banner -->
@@ -42,7 +44,7 @@
 					<h1>Antivýtrus</h1>
 					<p>Rozšírenie pre webový prehliadač, ktoré vás ochráni pred konšpirátorskými a dezinformačnými stránkami</p>
 					<ul class="actions">
-						<li><a href="#one" class="button scrolly">To chcem!</a></li>
+						<li><a href="ako-nainstalovat.html" class="button scrolly">To chcem!</a></li>
 					</ul>
 				</div>
 			</section>
@@ -79,17 +81,7 @@
 		<!-- Two -->
 			<section id="two" class="wrapper style1 special">
 				<div class="inner">
-					<h3>Antivýtrus je rozšírenie do internetového prehliadača, ktoré upozorňuje užívateľov na potenciálne nebezpečný konšpiračný obsah. Metodiku konšpiračných stránok sme prevzali od <a href="https://www.konspiratori.sk">konšpirátori.sk</a> s tým, že sme pridali Facebookové stránky konšpiračných webov zo zoznamu, pretože na sociálnych médiách sa dezinformácie šíria najviac. Keď Antivýtrus narazí na stránku zo zoznamu, užívateľovi vyskočí upozornenie, ktoré sa môže rozhodnúť akceptovať alebo ignorovať a na stránku aj tak kliknúť.
-</h3>
-				<!--	<figure>
-					    <blockquote>
-					        "Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra<br /> magna etiam lorem ultricies in diam. Sed arcu cras consequat."
-					    </blockquote>
-					    <footer>
-					        <cite class="author">Jane Anderson</cite>
-					        <cite class="company">CEO, Untitled</cite>
-					    </footer>
-					</figure>-->
+					<h3>Antivýtrus je založený na podobnom princípe ako starý dobrý antivírus, upozorňuje užívateľov na potenciálne nebezpečenstvá. V našom prípade je to ale konšpiračný obsah.</h3>
 				</div>
 			</section>
 
@@ -101,7 +93,7 @@
 							<img src="images/pic02.jpg" alt="" />
 						</div>
 						<div class="content">
-							<h3>Ako nainštalovať?</h3>
+							<h3><a href="ako-nainstalovat.html">Ako nainštalovať?</a></h3>
 							<p>Prečítajte si jednoduchý návod ako nainštalovať Antivytrus.</p>
 						</div>
 					</div>
@@ -119,7 +111,7 @@
 							<img src="images/pic03.jpg" alt="" />
 						</div>
 						<div class="content">
-							<h3>Antivýtrus a rodičia</h3>
+							<h3><a href="antivytrus-a-rodicia.html">Antivýtrus a rodičia</a></h3>
 							<p>Ako presvedčiť rodičov, aby si Antivytrus nainštalovali aj oni?</p>
 						</div>
 					</div>
@@ -131,9 +123,7 @@
 				<div class="inner">
 					<h2>Ozvite sa nám</h2>
 					<ul class="actions">
-						<!--<li><span class="icon fa-phone"></span> <a href="#">(000) 000-0000</a></li>-->
 						<li><span class="icon fa-envelope"></span> <a href="mailto:mail@antivytrus.sk">mail@antivytrus.sk</a></li>
-						<!--<li><span class="icon fa-map-marker"></span> 123 Somewhere Road, Nashville, TN 00000</li>-->
 					</ul>
 				</div>
 				<div class="copyright">

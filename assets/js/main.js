@@ -63,3 +63,7 @@
 	});
 
 })(jQuery);
+
+function dropdownToggle(){
+	$('#myDropdown').toggleClass('display-dropdown');
+}
