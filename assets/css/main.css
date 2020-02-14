@@ -3260,6 +3260,12 @@
 	text-decoration: underline;
 }
 
+.middle-image {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .img-top-margin {
 	margin-top: 12px;
 }
