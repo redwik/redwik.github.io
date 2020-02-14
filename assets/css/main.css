@@ -3256,6 +3256,21 @@
 	top: 80px;
 }
 
+.underline {
+	text-decoration: underline;
+}
+
+.img-top-margin {
+	margin-top: 12px;
+}
+
+.logo-text {
+	max-height: 26px;
+	vertical-align: middle;
+	margin-right: 4px;
+	margin-left: 4px;
+}
+
 .small-logo {
 	max-height: 26px;
 	vertical-align: middle;
