@@ -2053,7 +2053,9 @@
 		.box .image.fit {
 			margin: 0;
 			overflow: hidden;
-			max-height: 150px;
+			max-width:100%;
+			max-height:100%;
+			min-height: 150px;
 		}
 
 		.box .content {
@@ -2677,7 +2679,7 @@
 	
 	.menu-row {
 		padding-right: 1.5em;
-		font-size: 1.3em;
+		font-size: 1em;
 		font-weight: bold;
 	}
 
@@ -3250,7 +3252,7 @@
     display: none;
     position: absolute;
     background-color: #ffffff;
-    min-width: 239px;
+    min-width: 163px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 	top: 80px;
@@ -3264,10 +3266,12 @@
 	display: block;
     margin-left: auto;
     margin-right: auto;
+	max-width: 100%;
 }
 
 .img-top-margin {
 	margin-top: 12px;
+	max-width: 100%;
 }
 
 .logo-text {
@@ -3281,7 +3285,7 @@
 	max-height: 26px;
 	vertical-align: middle;
 	margin-right: 8px;
-	margin-left: 26px;
+	margin-left: 2px;
 }
 
 .actions img {
@@ -3302,12 +3306,19 @@
 	}
 }
 
+.flex-item img {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
 .dropdown-content a {
     color: black;
-    padding: 10px 16px;
+    padding: 10px 8px;
     text-decoration: none;
     display: block !important;
 	line-height: 1.5em;
+	font-size: 15px;
 }
 
 .dropdown-content a:hover {
