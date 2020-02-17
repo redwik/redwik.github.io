@@ -2955,7 +2955,7 @@
 		padding: 14em 0 12em 0;
 		background-image: url(../../images/banner.jpg);
 		background-size: cover;
-		background-position: center top;
+		background-position: center bottom;
 		background-repeat: no-repeat;
 		text-align: center;
 	}
@@ -3304,6 +3304,10 @@
 	.dropdown-content {
 		top: 70px;
 	}
+}
+
+.four-picture {
+	position: inherit !important;
 }
 
 .flex-item img {
